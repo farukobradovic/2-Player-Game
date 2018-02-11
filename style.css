@@ -1,0 +1,75 @@
+body, html{
+  background: url('2.jpg');
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  font-family: 'arial';
+}
+.container h2{
+  color: #f2f2f2;
+
+}
+.panel-0, .panel-1{
+  height: 500px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+.firstHalf{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20%;
+  text-transform: uppercase;
+}
+.finalResult0, .finalResult1{
+  font-size: 50px;
+}
+.secondHalf{
+  background-color: #ff3333;
+  border-radius: 5px;
+  width: 30%;
+  margin-top: 50px;
+  margin-left: 35%;
+}
+.secondHalf p{
+  text-align: center;
+  color:#f2f2f2;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.active{
+  background-color: #e6e6e6;
+  color: #ff3333;
+}
+.active .firstHalf p:first-child{
+  color: red;
+}
+.btn-new, .btn-hold, .btn-roll{
+  font-size: 25px;
+  background: transparent;
+  border:none;
+  cursor: pointer;
+  transform: translateX(-30%);
+  transition: background-color 0.3s, color 0.3s;
+  color: #f2f2f2;
+}
+button:hover { font-weight: 500; }
+button:hover i { margin-right: 20px; }
+.btn-new:focus, .btn-hold:focus, .btn-roll:focus  {
+    outline: none;
+    border: none;
+}
+i{
+  padding-right: 10px;
+  transition: margin 0.3s;
+  color: #ff3333;
+}
+.kocke .dice{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  /* background:url('dice-3.png'); */
+  background-size: cover;
+  left: 45%;
+  top: 35%;
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.40);
+}
